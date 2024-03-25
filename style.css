@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap');
+
+body{
+    background-color: #023b2d;
+    text-align: center;
+    font-family: "Tiro Devanagari Hindi", serif;
+    font-weight: bold;
+}
+
+header{
+    margin: 30px;
+    padding: 20px;
+    background-color: #00241B;
+    font-size: 20px;
+}
+
+h1{
+    font-size:55px;
+    margin:10px;
+    padding:10px;
+    color:#65B891;
+    text-align:middle;
+}
+
+p{
+    font-size:20px;
+    margin: 10px;
+    padding: 10px;
+    color: #6dca9f;
+    text-align: justify;
+}
+
+.menuimg{
+    padding:5px;
+    margin:5px;
+    width: 300px;
+    border-radius:4px;
+}
+
+.itemmenu{
+    margin:5px;
+    padding:10px;
+    border-radius:15px;
+    text-decoration:none;
+    color:#65B891;
+    background-color:#001b14;
+}
+
+.itemmenu:hover{
+    color:#76d4a8;
+    background-color:#00241B;
+    font-family: "Allan", serif;
+    font-size:25px;
+}
+
+label{
+    color:#65B891;
+    text-align:left;
+    font-size:30px;
+}
+
+.musicas{
+    background-color: #193630;
+    margin:10px;
+    padding:10px;
+    width:80%;
+    height:152px;
+    border: 6px solid #00241B;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.musicas:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+table{
+    margin:5px;
+    padding:10px;
+}
+
+.video{
+    background-color: #193630;
+    margin:15px;
+    padding:15px;
+    width:60%;
+    height:434px;
+    border: 10px solid #00241B;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.info{
+    margin:10px;
+    padding:15px;
+    border-radius:8px;
+    text-decoration:none;
+    color:#65B891;
+    background-color:#00241B;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.info:hover{
+    color:#76d4a8;
+    background-color:#001b14;
+}
+
+.segredo{
+    margin:4px;
+    padding:4px;
+    text-decoration:none;
+    color:#65B891;
+    background-color: #023b2d;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.esquerda{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin: 5px;
+    padding: 10px;
+}
+
+.direita{
+    justify-content: left;
+    align-items: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.direita p{
+    font-size: 20px;
+    margin:10px;
+    padding:10px;
+    color:#65B891;
+    text-align: left;
+
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.direita h2{
+    font-size:30px;
+    margin:10px;
+    padding:10px;
+    color:#529475;
+    text-align:left;
+}
+
+.imgbanner{
+    width:300px;
+    margin:0 150px 0 150px;
+}
